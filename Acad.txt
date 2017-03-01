@@ -1,0 +1,41 @@
+1.
+public class Acad
+{
+public static voi main(String[] args)
+{
+int a=10,b=20;
+System.out.println(a+b);
+}
+}
+2.
+import java.util.Scanner;
+public class Acad1
+{
+public static void main(String[] args)
+{
+int a,b;
+Scanner ob=new Scanner(System.in);
+a=ob.nextInt();
+b=ob.nextInt();
+System.out.println(a+b);
+}
+}
+3. 
+import java.util.Scanner;
+public class Acad2
+{
+public void sum(int a,int b)
+{
+System.out.print("Sum is :"a+b);
+}
+public static void main(String[] args)
+{
+Scanner ob=new Scanner(System.in);
+int a=ob.nextInt();
+int b=ob.nextInt();
+System.out.println("First Number :"+a);
+System.out.println("Second Number :"+b);
+sum(a,b);
+}
+}
+
